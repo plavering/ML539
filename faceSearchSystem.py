@@ -81,3 +81,4 @@ class FaceSearchSystem:
             print(f"Error searching faces: {str(e)}")
             return None
 
+
