@@ -1,0 +1,45 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuration files
+config/people.yaml
+
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# Database files
+face_db/
+database/
+*.sqlite3
+*.bin
+
+# Model files
+*.pt
+
+# Local development
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

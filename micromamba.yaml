@@ -1,0 +1,18 @@
+name: ML539 
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pillow
+  - pip:
+    - deepface
+    - chromadb
+    - tensorflow  # Required by DeepFace
+    - opencv-python  # Required by DeepFace
+    - mtcnn  # Required by DeepFace for face detection
+    - retina-face  # Alternative face detector used by DeepFace
+    - tf-keras # Required for tensorflow
+    - ultralytics
